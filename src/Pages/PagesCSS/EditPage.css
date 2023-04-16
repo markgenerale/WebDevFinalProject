@@ -1,0 +1,77 @@
+/* AddPage.css */
+
+.add-page-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.add-page-wrapper input {
+	display: block;
+	margin: 10px auto;
+	padding: 5px;
+	width: 100%;
+	border: 2px solid #1db954;
+	background-color: #1c1c1c;
+	color: white;
+	border-radius: 25px;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.add-page-wrapper input:focus {
+	outline: none;
+	border-color: #1db954;
+	box-shadow: 0 0 5px #1db954;
+}
+
+.add-page-wrapper form {
+	background-color: black;
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid green;
+	box-shadow: 0 0 10px green;
+	border-radius: 5px;
+	color: #1db954;
+	width: 300px;
+	text-align: center;
+	font-family: monospace;
+	font-size: x-large;
+	position: relative;
+}
+
+.add-page-wrapper .add-page-form {
+	position: absolute;
+}
+
+.add-page-wrapper .buttonbar {
+	display: grid;
+	justify-content: space-around;
+	grid-template-columns: 1fr 4fr;
+	margin-top: 20px;
+}
+
+.add-page-wrapper button {
+	background-color: #1db954;
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 5px 15px;
+	cursor: pointer;
+	font-family: monospace;
+	font-weight: bold;
+	margin: 30px;
+}
+
+.add-page-wrapper button:hover {
+	background-color: white;
+	color: black;
+}
+
+.add-page-wrapper h1 {
+	text-align: center;
+}

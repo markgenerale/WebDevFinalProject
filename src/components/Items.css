@@ -1,0 +1,48 @@
+.items-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+	padding: 30px;
+	align-self: center;
+}
+
+.item-card {
+	display: flex;
+	background-color: #1c1c1c;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid green;
+	box-shadow: 0 0 10px green;
+	border-radius: 5px;
+	width: 450px;
+	height: 450px;
+	font-family: monospace;
+}
+
+.album-cover {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.album-info {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.album-info h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.5rem;
+}
+
+.album-info p {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2rem;
+}

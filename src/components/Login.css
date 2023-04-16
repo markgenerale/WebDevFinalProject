@@ -1,0 +1,77 @@
+.login-container {
+	background-color: black;
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid green;
+	box-shadow: 0 0 10px green;
+	border-radius: 5px;
+	color: #1db954;
+	width: 300px;
+	text-align: center;
+	font-family: monospace;
+	font-size: x-large;
+}
+
+input {
+	display: block;
+	margin: 10px auto;
+	padding: 5px;
+	width: 200px;
+	border-radius: 25px;
+}
+
+.spotify-logo {
+	width: 300px;
+	height: auto;
+	margin-bottom: 20px;
+	cursor: default;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+button {
+	margin-top: 10px;
+	background-color: #1db954;
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 5px 15px;
+	cursor: pointer;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: black;
+}
+
+.signup-button {
+	margin-top: 5px;
+}
+
+p {
+	margin: 20px 0;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.signup-form {
+	margin-top: 20px;
+}
+
+.finish-signup-button {
+	margin-top: 10px;
+	background-color: #1db954;
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+
+.finish-signup-button:hover {
+	background-color: black;
+}

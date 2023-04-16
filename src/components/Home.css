@@ -1,0 +1,19 @@
+.catalog-title {
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #1db954;
+	text-shadow: 0 0 3px #1db954, 0 0 5px #1db954;
+}
+
+.album-list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	padding: 20px;
+	align-self: center;
+	padding-left: 100px;
+	padding-top: 50px;
+}

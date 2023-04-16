@@ -1,0 +1,48 @@
+.menu-bar {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background-color: #1db954;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 4px solid rgb(255, 255, 255);
+}
+
+.menu-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	height: 50px;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+	background-color: white;
+}
+
+.add-box {
+	color: black;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.delete-box {
+	border-right: 4px solid rgb(255, 255, 255);
+	color: black;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.edit-box {
+	color: black;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.logout-box {
+	border: 2px solid rgb(0, 0, 0);
+}
