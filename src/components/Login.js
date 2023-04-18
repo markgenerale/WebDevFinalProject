@@ -1,7 +1,7 @@
-
 import React, { useState } from 'react';
 import './Login.css';
 import MenuBar from './MenuBar';
+import ReadyBar from './ReadyBar';
 
 function Login() {
 	// Initialize state variables for email, password, sign-up UI visibility, and logged-in status
@@ -100,7 +100,7 @@ function Login() {
 			) : (
 				<>
 					{/* Render MenuBar when user is logged in */}
-					<MenuBar />
+					<ReadyBar />
 				</>
 			)}
 		</div>
@@ -108,9 +108,3 @@ function Login() {
 }
 
 export default Login;
-
-
-
-
-
-

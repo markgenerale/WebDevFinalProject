@@ -6,7 +6,7 @@ import AddPage from './Pages/AddPage';
 import DeletePage from './Pages/DeletePage';
 import LoginHomePage2 from './Pages/LoginHomePage2';
 import EditPage from './Pages/EditPage';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 // Main App component
 function App() {
@@ -51,6 +51,14 @@ function App() {
 		setCards(newArray);
 	};
 
+	const [originalCards, setOriginalCards] = useState(cards);
+
+	useEffect(() => {
+		if (window.location.pathname === '/loggedout') {
+		  setCards(originalCards);
+		}
+	  }, [originalCards]);
+
 	return (
 		<div className="App">
 			{/* Setting up React Router to handle different routes */}
@@ -75,7 +83,7 @@ function App() {
 					<Route path="/del" element={<DeletePage array={cards} updateArray={updateAlbumArray}/>} />
 
 					{/* Route for when logged-out page */}
-					<Route path="/loggedout" element={<LoginHomePage cards={cards} />} />
+					<Route path="/loggedout" element={<LoginHomePage cards={originalCards} />} />
 
 
 					{/* TODO: Add route for handling errors */}
