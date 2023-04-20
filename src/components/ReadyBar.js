@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import './ReadyBar.css';
 
 
+
+
 function ReadyBar(props) {
     // Hook to navigate programmatically with react-router
     let navigate = useNavigate();

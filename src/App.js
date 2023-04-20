@@ -45,6 +45,12 @@ function App() {
 			releaseDate: '5/11/2018',
 		},
 	]);
+	
+	// server routes 
+	const users = require('./routes/api/users');
+
+	App.use('/api/users', users);
+
 
 	// Function to update the album array
 	const updateAlbumArray = (newArray) => {
